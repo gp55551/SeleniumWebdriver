@@ -18,6 +18,7 @@ public class DragDrop {
 		driver.navigate().to("http://demo.guru99.com/test/drag_drop.html");
 		driver.manage().window().maximize();
 		
+		
 		WebElement From=driver.findElement(By.xpath("//*[@id='credit2']/a"));	
         
         WebElement To=driver.findElement(By.xpath("//*[@id='bank']/li"));					
