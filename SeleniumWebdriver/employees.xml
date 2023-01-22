@@ -1,0 +1,18 @@
+<employee>
+    <employeeProfile id="111" profile="IT">
+        <name>ABC</name>
+        <dob>DD-MM-YYYY</dob>
+        <location>LOC</location>
+    </employeeProfile>
+    <employeeJob job="XXX">
+        <dateofJoining>DD-MM-YYYY</dateofJoining>
+        <salary>54321</salary>
+        <unit>A</unit>
+		<experienceinYears>X</experienceinYears>
+    </employeeJob>
+    <employeeContact>
+        <contactNo>1234567890</contactNo>
+        <email>abc@xyz.com</email>
+        <spouseName>DEF</spouseName>
+    </employeeContact>
+</employee>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suite">
+  <test thread-count="1" name="Test" parallel="methods">
+  	<parameter name="name" value="Gaurav"></parameter>
+    <classes>
+      <!-- <class name="TestNGtopics.Priority"/>
+      <class name="TestNGtopics.ClassA"/> -->
+      <class name="TestNGtopics.ClassB"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
